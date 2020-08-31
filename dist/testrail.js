@@ -22,6 +22,7 @@ var TestRail = /** @class */ (function () {
                 },
                 data: JSON.stringify({
                     suite_id: this.options.suiteId,
+                    milestone_id: this.options.milestoneId,
                     name: name,
                     description: description,
                     include_all: true,
